@@ -73,6 +73,23 @@ search:
 - `[h5p url="..."]` — H5P interactive content via full embed URL
 - `[h5p id="..."]` — H5P interactive content via Content ID (requires H5P Content Embed Source URL to be set in plugin settings)
 - `[embedly url="..."]` — Embedly card with dark mode support
+- `[topics]...[/topics]` — Alphabetical topics index with auto-generated A–Z navigation, linked letters, and styled letter section labels
+
+### Topics Shortcode
+
+The `[topics]` shortcode wraps alphabetically organised content and auto-generates a full A–Z index at the top of the page. Letters with entries are rendered as anchor links; letters without entries are shown as dimmed plain text.
+
+```markdown
+# Topics
+
+[topics]
+## A
+[Agile UX](../modules/module-02)
+## D
+[Design Ethics](../modules/module-02)
+[Design Thinking](../modules/module-01)
+[/topics]
+```
 
 ## Course List Page
 
