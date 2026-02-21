@@ -1,5 +1,12 @@
 /* Helios CSS customizations */
 
+/* Left-align content area without altering margins */
+/*
+#main-content > div {
+    min-width: 90%;
+}
+*/
+
 .prose blockquote.announcement {
     font-style: normal
 }
@@ -87,6 +94,14 @@
     overflow: hidden
 }
 
+.responsive-container--4x3 {
+    aspect-ratio: 4 / 3;
+}
+
+.responsive-container--portrait {
+    aspect-ratio: 8.5 / 11;
+}
+
 .responsive-container iframe {
     position: absolute;
     top: 0;
@@ -122,3 +137,8 @@
     display: none;
 }
 */
+
+/* Increase body font size by 10% */
+:root {
+    font-size: 102%;
+}
